@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{995B478B-2313-42b4-B075-2FF738231C5D}</em:id>
+    <em:version>1.0</em:version>
+    <em:type>2</em:type>
+   
+    <!-- Target Application this extension can install into, 
+         with minimum and maximum supported versions. --> 
+    <em:file>
+	<Description about="urn:mozilla:extension:file:callerIdFiller.jar">
+		<em:package>content/callerIdFiller/</em:package>
+		<em:skin>skin/classic/callerIdFiller/</em:skin>
+	</Description>
+    </em:file>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>4.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+   
+    <!-- Front End MetaData -->
+    <em:name>Caller Id Filler</em:name>
+    <em:description>Fill up Caller ID in form</em:description>
+    <em:creator>Supriyo Mitra</em:creator>
+    <em:developer>Supriyo Mitra</em:developer>
+    <em:targetPlatform>WINNT</em:targetPlatform>
+    <em:targetPlatform>Linux</em:targetPlatform>
+    <em:homepageURL>https://www.odesk.com/users/Programmer-Developer-with-yrs-experience-software-industry_~~b9c2d97a38db3326?sid=49002&tot=1&pos=0</em:homepageURL>
+  </Description>      
+</RDF>
